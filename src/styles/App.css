@@ -1,0 +1,53 @@
+.app-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #025f9c;
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.upload-container {
+    margin: 2rem;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 2rem;
+    text-align: center;
+}
+
+.generate-btn {
+    margin-top: 1rem;
+    background-color: #025f9c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background-color: #013d66;
+}

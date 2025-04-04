@@ -1,0 +1,19 @@
+.api-storage-container {
+    padding: 1rem;
+}
+
+.api-storage-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.api-storage-table th,
+.api-storage-table td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.api-storage-table th {
+    background-color: #f2f2f2;
+}

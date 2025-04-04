@@ -1,0 +1,20 @@
+.document-container {
+    position: relative;
+}
+
+.test-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #025f9c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.test-btn:hover {
+    background-color: #013d66;
+}
